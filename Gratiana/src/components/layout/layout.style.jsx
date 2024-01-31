@@ -11,6 +11,6 @@ export const media = {
     mobile: `(min-width: ${breakpoint.mobile}px)`,
 }
 
-export const Colors = {
+export const Colors = {x
     primaryColor: '#FF7839',
 }
