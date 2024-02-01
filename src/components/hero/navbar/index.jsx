@@ -1,11 +1,6 @@
-import React from "react";
+import styled from "styled-components"
 
-import styled from "styled-components";
-
-import {
-    media,
-    Colors,
-    } from "../../layout/layout.style";
+import { media, Colors } from "../../layout/layout.style"
 
 const Navbar = styled.div`
     @media ${media} {
@@ -15,4 +10,4 @@ const Navbar = styled.div`
     }
 `
 
-export default Navbar;
+export default Navbar
