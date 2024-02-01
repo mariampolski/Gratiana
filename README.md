@@ -1,8 +1,18 @@
-# React + Vite
+![The project's banner.](https:example.com/)
+# 📌 Gratiana
+### `🛬 Landing pages`
+#### The landing page for Furnish Apart, furniture industry. 🪑
+### About
+**Date:** `March 2022`\
+**Scope of activities:** `UI/UX Design`, `Mockup`, `Development`, `Project Managing`\
+**Software used:** `Visual Studio Code`, `Adobe XD`\
+**Technology used:** `React`, `JavaScript`\
+**Commercial:** `Non-Commercial`
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### 🔗 External links
+**[Project on Behance](https://behance.net/)**\
+**[Project on Dribbble](https://dribbble.com/)**\
+**[Project's Website](https://example.com/)**\
+**[My LinkedIn](https://linkedin.com/)**\
+**[My Instagram](https://www.instagram.com/)**\
+**[Article on my own website](https://www.example.com/)**
