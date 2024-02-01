@@ -1,7 +1,7 @@
 ![The project's banner.](https:example.com/)
 # 📌 Gratiana
 ### `🛬 Landing pages`
-#### The landing page for Furnish Apart, furniture industry. 🪑
+#### The landing page for Gratiana, a company in the restaurant industry. 🧑‍🍳
 ### About
 **Date:** `March 2022`\
 **Scope of activities:** `UI/UX Design`, `Mockup`, `Development`, `Project Managing`\
