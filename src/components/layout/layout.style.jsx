@@ -1,5 +1,3 @@
-import React from "react";
-
 export const breakpoint = {
     desktop: 1440,
     tablet: 768,
@@ -11,6 +9,6 @@ export const media = {
     mobile: `(min-width: ${breakpoint.mobile}px)`,
 }
 
-export const Colors = {x
-    primaryColor: '#FF7839',
+export const Colors = {
+    primaryColor: "#FF7839",
 }

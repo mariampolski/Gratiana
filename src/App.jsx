@@ -1,15 +1,12 @@
-import React from "react";
-
-import { GlobalStyle } from "./styles/globalStyle.jsx";
-import IndexPage from "./pages/index.jsx";
+import { GlobalStyle } from "./styles/globalStyle.jsx"
+import IndexPage from "./pages/index.jsx"
 function App() {
-
-  return (
-    <>
-      <GlobalStyle />
-      <IndexPage />
-    </>
-  );
+    return (
+        <>
+            <GlobalStyle />
+            <IndexPage />
+        </>
+    )
 }
 
 export default App

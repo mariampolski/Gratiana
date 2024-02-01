@@ -1,9 +1,7 @@
-import React from "react";
-
-import Hero from "../components/hero";
+import Hero from "../components/hero"
 
 const IndexPage = () => {
-    <Hero />
+    return <Hero />
 }
 
-export default IndexPage;
+export default IndexPage
