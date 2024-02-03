@@ -1,4 +1,4 @@
-import Hero from "../components/hero"
+import Hero from "../templates/index/hero"
 
 const IndexPage = () => {
     return <Hero />

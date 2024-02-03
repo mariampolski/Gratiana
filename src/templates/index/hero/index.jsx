@@ -1,4 +1,4 @@
-import Navbar from "../../../components/hero/navbar"
+import Navbar from "../../../components/navbar/index"
 
 const Hero = () => {
     return (
