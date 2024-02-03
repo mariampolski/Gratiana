@@ -11,4 +11,5 @@ export const media = {
 
 export const Colors = {
     primaryColor: "#FF7839",
+    primaryBlack: "#1C1B1F",
 }
