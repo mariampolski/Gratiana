@@ -1,6 +1,7 @@
 import styled from "styled-components"
 
-import { Colors } from "../../layout/layout.style"
+import { theme } from "../../../styles/theme"
+
 import LogoIcon from "../../../assets/logo.png"
 import CloseIcon from "../../../assets/close.png"
 
@@ -11,7 +12,7 @@ export const NavbarWrapper = styled.div`
     padding: 0 15px 0 15px;
     width: 100%;
     height: 70px;
-    background-color: ${Colors.primaryColor};
+    background-color: ${theme.colors.primaryColor};
 `
 const LogoIconWrapper = styled.div`
     height: fit-content;
@@ -27,7 +28,7 @@ export const NavbarLogo = () => {
 }
 
 const CloseIconWrapper = styled.div`
-    display: flex:
+    display: flex;
     height: fit-content;
     width: fit-content;
 `
@@ -42,7 +43,7 @@ export const NavbarClose = () => {
 const HamburgerMenuBars = styled.div`
     width: 30px;
     height: 3px;
-    background-color: ${Colors.primaryBlack};
+    background-color: ${theme.colors.primaryBlack};
 `
 
 const HamburgerMenuWrapper = styled.div`

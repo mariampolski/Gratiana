@@ -1,5 +1,6 @@
-import { GlobalStyle } from "./styles/globalStyle.jsx"
+import { GlobalStyle } from "./styles/globalStyles.jsx"
 import IndexPage from "./pages/index.jsx"
+
 function App() {
     return (
         <>
