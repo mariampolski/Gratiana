@@ -1,9 +1,22 @@
-import { NavbarWrapper } from "./index.style"
+import {
+    NavbarButton,
+    NavbarButtonsWrapper,
+    NavbarLogo,
+    NavbarWrapper,
+    navbarButtonsList,
+} from "./index.style"
 
 const Navbar = () => {
+    const NavbarButtonMap = ({ label }) => <NavbarButton>{label}</NavbarButton>
+
     return (
         <NavbarWrapper>
-            <p>navbar</p>
+            <NavbarLogo />
+            <NavbarButtonsWrapper>
+                {navbarButtonsList.map((buttonLabel, index) => (
+                    <NavbarButtonMap key={index} label={buttonLabel} />
+                ))}
+            </NavbarButtonsWrapper>
         </NavbarWrapper>
     )
 }

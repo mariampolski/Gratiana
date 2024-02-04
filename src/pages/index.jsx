@@ -1,7 +1,12 @@
 import Hero from "../templates/index/hero"
+import { IndexPageWrapper } from "./index.style"
 
 const IndexPage = () => {
-    return <Hero />
+    return (
+        <IndexPageWrapper>
+            <Hero />
+        </IndexPageWrapper>
+    )
 }
 
 export default IndexPage

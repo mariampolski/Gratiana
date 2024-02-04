@@ -1,9 +1,12 @@
 import Navbar from "../../../components/navbar/index"
+import { HeroWrapper } from "./index.style"
 
 const Hero = () => {
     return (
         <>
-            <Navbar />
+            <HeroWrapper>
+                <Navbar />
+            </HeroWrapper>
         </>
     )
 }
