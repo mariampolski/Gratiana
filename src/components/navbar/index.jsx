@@ -3,18 +3,43 @@ import {
     NavbarButtonsWrapper,
     NavbarLogo,
     NavbarWrapper,
-    navbarButtonsList,
 } from "./index.style"
 
-const Navbar = () => {
-    const NavbarButtonMap = ({ label }) => <NavbarButton>{label}</NavbarButton>
+const navbarButtonsList = [
+    {
+        id: 1,
+        title: "Home",
+        link: "home",
+    },
+    {
+        id: 2,
+        title: "Benefits",
+        link: "benefits",
+    },
+    {
+        id: 3,
+        title: "Cuisine",
+        link: "cuisine",
+    },
+    {
+        id: 4,
+        title: "Testimonials",
+        link: "testimonials",
+    },
+    {
+        id: 5,
+        title: "Reservation",
+        link: "reservation",
+    },
+]
 
+const Navbar = () => {
     return (
         <NavbarWrapper>
             <NavbarLogo />
             <NavbarButtonsWrapper>
-                {navbarButtonsList.map((buttonLabel, index) => (
-                    <NavbarButtonMap key={index} label={buttonLabel} />
+                {navbarButtonsList.map((item) => (
+                    <NavbarButton key={item.id}>{item.title}</NavbarButton>
                 ))}
             </NavbarButtonsWrapper>
         </NavbarWrapper>

@@ -16,13 +16,12 @@ const colors = {
 const typography = {
     navbar: {
         buttons: {
-            fontFamily: "Comic Neue",
             fontSize: 24,
             fontStyle: "italic",
             fontWeight: 700,
             lineHeight: 28,
             letterSpacing: 0,
-            textAlign: "left",
+            textAlign: "center",
         },
     },
 }

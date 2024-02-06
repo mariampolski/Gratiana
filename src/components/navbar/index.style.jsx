@@ -29,7 +29,6 @@ export const NavbarButton = styled.button`
     background-color: transparent;
     width: fit-content;
     height: fit-content;
-    font-family: ${theme.typography.navbar.buttons.fontFamily};
     font-size: ${theme.typography.navbar.buttons.fontSize}px;
     font-style: ${theme.typography.navbar.buttons.fontStyle};
     font-weight: ${theme.typography.navbar.buttons.fontWeight};
@@ -38,10 +37,3 @@ export const NavbarButton = styled.button`
     text-align: ${theme.typography.navbar.buttons.textAlign};
     border: none;
 `
-export const navbarButtonsList = [
-    "Home",
-    "Benefits",
-    "Cuisine",
-    "Testimonials",
-    "Reservation",
-]
