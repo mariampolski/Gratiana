@@ -126,6 +126,7 @@ export const HeroButton = styled.button`
     width: fit-content;
     height: fit-content;
     padding: 10px 20px;
+    border: none;
     font-size: ${theme.typography.hero.heroButton.largeDesktopMiddleDesktop
         .fontSize}px;
     font-style: ${theme.typography.hero.heroButton.largeDesktopMiddleDesktop
