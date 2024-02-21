@@ -1,8 +1,10 @@
+import { useState } from "react"
 import {
     NavbarButton,
     NavbarButtonsWrapper,
     NavbarLogo,
     NavbarWrapper,
+    HamburgerNavbarButton,
 } from "./index.style"
 
 const navbarButtonsList = [
@@ -34,6 +36,13 @@ const navbarButtonsList = [
 ]
 
 const Navbar = () => {
+    const [isMenuOpen, setIsMenuOpen] = useState(false)
+
+    const toggleMenu = () => {
+        setIsMenuOpen(!isMenuOpen)
+        console.log({ isMenuOpen })
+    }
+
     return (
         <NavbarWrapper>
             <NavbarLogo />
@@ -42,6 +51,7 @@ const Navbar = () => {
                     <NavbarButton key={item.id}>{item.title}</NavbarButton>
                 ))}
             </NavbarButtonsWrapper>
+            <HamburgerNavbarButton onClick={toggleMenu} />
         </NavbarWrapper>
     )
 }

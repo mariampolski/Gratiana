@@ -1,4 +1,5 @@
 import Navbar from "../../../components/navbar/index"
+import HeroMainContent from "../../../components/mainContent"
 import { HeroWrapper } from "./index.style"
 
 const Hero = () => {
@@ -6,6 +7,7 @@ const Hero = () => {
         <>
             <HeroWrapper>
                 <Navbar />
+                <HeroMainContent />
             </HeroWrapper>
         </>
     )
